@@ -1,0 +1,159 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+
+/* HEADING */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINTER */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* SECTION */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Navbar */
+.navbar{
+  padding: 0;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+
+
+/* TITLE */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.title-row{
+  padding-top: 7%;
+}
+/* Title Image */
+.image-1{
+  margin-left: 3rem;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.dl-button{
+  margin: 1%;
+}
+
+
+
+/* Features */
+#features{
+  position: relative;
+  background-color: #fff;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.fea-images{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fea-images:hover{
+  color: #ff4c68;
+}
+
+.fea-p{
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+.carousel-item{
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+#press{
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+.press-icon{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width : 991px){
+  #title{
+    text-align: center;
+  }
+  .image-1{
+    margin-left: 0;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Call to Action */
+
+
+/* FOOTER */
+.dl-button2{
+  margin: 7% 1%;
+}
+.link-icon{
+    margin: 20px 10px;
+}
